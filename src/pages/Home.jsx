@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import { getProjetosRecentes } from '../data/projetos';
 
 function Home() {
-  // useEffect para definir o título da página
+ 
   useEffect(() => {
     document.title = 'Matheus Krigger | Desenvolvedor Front-end | Escola DNC';
   }, []);
@@ -25,7 +25,7 @@ function Home() {
         </div>
       </nav>
       
-      {/* Hero Section */}
+      {}
       <section className="hero-section">
         <div className="container-wide">
           <div className="hero-content">
@@ -38,10 +38,10 @@ function Home() {
                 <span className="hero-title">Desenvolvedor Full-Stack</span>
               </h1>
               <p className="hero-description">
-                Desenvolvedor Front-end formado pela Escola DNC (150h) com especialização em React, 
-                JavaScript e TypeScript. Conhecimentos sólidos em ASP.NET e .NET, 
-                atualmente finalizando meu Tecnólogo em TI - Software (2025), pronto para transformar ideias 
-                em soluções digitais inovadoras e escaláveis.
+                Desenvolvedor Full-Stack com mais de 4 anos estudando programação, atualmente focado
+                em Java e Cloud (computação em nuvem). Especializado em React, JavaScript e TypeScript,
+                com conhecimentos em ASP.NET e .NET. Entrego soluções práticas e escaláveis — pronto para
+                assumir responsabilidades e gerar impacto imediato no seu time.
               </p>
               <div className="hero-actions">
                 <a href="#projetos" className="btn-secondary">
@@ -55,7 +55,7 @@ function Home() {
             <div className="hero-visual">
               <div className="hero-stats">
                 <div className="stat-card">
-                  <div className="stat-number">2+</div>
+                  <div className="stat-number">4+</div>
                   <div className="stat-label">Anos de Estudo</div>
                 </div>
                 <div className="stat-card">
@@ -72,6 +72,8 @@ function Home() {
                 <div className="tech-item">TypeScript</div>
                 <div className="tech-item">ASP.NET</div>
                 <div className="tech-item">JavaScript</div>
+                <div className="tech-item">Java</div>
+                <div className="tech-item">Cloud (AWS/GCP)</div>
                 <div className="tech-item">.NET</div>
                 <div className="tech-item">C</div>
               </div>
@@ -80,7 +82,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Skills Section */}
+      {}
       <section className="skills-section">
         <div className="container">
           <div className="section-header">
@@ -105,6 +107,7 @@ function Home() {
               <span className="skill-tag primary">ASP.NET</span>
               <span className="skill-tag primary">.NET</span>
               <span className="skill-tag">C</span>
+              <span className="skill-tag">Java</span>
               <span className="skill-tag">API Development</span>
               <span className="skill-tag">Database Design</span>
             </div>
@@ -116,6 +119,7 @@ function Home() {
               <span className="skill-tag">VS Code</span>
               <span className="skill-tag">Figma</span>
               <span className="skill-tag language">🇺🇸 Inglês Técnico</span>
+              <span className="skill-tag">Cloud (AWS / GCP)</span>
               <span className="skill-tag">Responsive Design</span>
             </div>
           </div>
@@ -123,7 +127,7 @@ function Home() {
                 </div>
       </section>
 
-      {/* Education Section */}
+      {}
       <section className="education-section">
         <div className="container">
           <div className="section-header">
@@ -161,11 +165,26 @@ function Home() {
                 <span className="status-badge">🎓 Formando</span>
               </div>
             </div>
+            
+            <div className="education-card">
+              <div className="education-info">
+                <h3>IA e Dados</h3>
+                <p className="education-institution">Geração Caldeira + IBM SkillsBuild</p>
+                <p className="education-period">2025 - Concluído</p>
+                <p className="education-description">
+                  Formação prática em Inteligência Artificial e análise de dados, cobrindo fundamentos
+                  de machine learning, processamento de dados, e ferramentas do ecossistema IBM SkillsBuild.
+                </p>
+              </div>
+              <div className="education-status">
+                <span className="status-badge completed">✅ Concluído</span>
+              </div>
+            </div>
                 </div>
         </div>
       </section>
 
-      {/* Projects Section */}
+      {}
       <section id="projetos" className="projects-section">
         <div className="container">
           <div className="section-header">
@@ -220,15 +239,16 @@ function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {}
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
             <h2>Pronto para novos desafios!</h2>
             <p>
-              Como desenvolvedor Front-end formado pela Escola DNC e finalizando meu Tecnólogo em TI - Software, 
-              estou buscando oportunidades para aplicar meus conhecimentos em React, 
-              JavaScript, TypeScript e ASP.NET em projetos reais.
+              Tenho mais de 4 anos estudando programação e atualmente aprofundo em Java e Cloud. 
+              Trago experiência prática em front- e back-end e foco em entregar valor desde o primeiro dia.
+              Estou disponível para iniciar rapidamente e contribuir para seus projetos com soluções bem planejadas,
+              código limpo e compromisso com prazos.
             </p>
           <div className="cta-actions">
             <a href="mailto:matheuskriggerbrum7@gmail.com" className="cta-btn primary">
